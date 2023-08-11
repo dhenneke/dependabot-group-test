@@ -1,0 +1,14 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: weekly
+    groups:
+      material-ui:
+        patterns:
+          - "@emotion/*"
+          - "@mui/*"
+      matrix-widget-toolkit:
+        patterns:
+          - "@matrix-widget-toolkit/*"
